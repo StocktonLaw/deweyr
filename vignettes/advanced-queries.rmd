@@ -131,7 +131,7 @@ Use `read_dewey()` for convenience on small or pre-filtered datasets. Use raw Du
 
 ### Overkill: Rank Carriers by Growth
 
-For the truly unhinged — rank carriers by full-time employee growth rate over time, 
+For a more advanced example — rank carriers by full-time employee growth rate over time, 
 using a window function to compute the first and last recorded value per carrier:
 
 While this looks dumb, SQL is much quicker than R's tidyverse for massive datasets. Should you have a predictable transformation, it may be wise to do it while you read in using duckdb.
