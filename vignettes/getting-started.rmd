@@ -116,6 +116,7 @@ Use `read_dewey()` to read a previously downloaded dataset back into R as a tibb
 ```r
 df <- read_dewey("C:/your/path/to/dewey-downloads/airline-employment")
 df
+```
 
 ---
 
